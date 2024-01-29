@@ -13,9 +13,9 @@ h1 {
 
 .images {
     border-radius: 2px;
-    border-color: aqua;
     display: inline-block;
     margin-right: 20px;
+    margin-top: 60px;
 }
 
 .images #i1 {
