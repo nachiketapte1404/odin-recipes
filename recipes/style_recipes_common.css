@@ -8,21 +8,21 @@
 
 @font-face {
     font-family: 'TangerineBold';
-    src: url('fonts/Tangerine-Bold.ttf') format('truetype');
+    src: url('../fonts/Tangerine-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family : 'TangerineRegular';
-    src: url('fonts/Tangerine-Regular.ttf') format('truetype');
+    src: url('../fonts/Tangerine-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'LovelyCoffee';
-    src: url('fonts/LovelyCoffee-jEVeO.ttf') format('truetype');
+    src: url('../fonts/LovelyCoffee-jEVeO.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -65,7 +65,7 @@ img {
 h3 {
     font-family: 'TangerineRegular', cursive ;
     font-size: 50px;
-    color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.9);
 }
 
 h4 {
