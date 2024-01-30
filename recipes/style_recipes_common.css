@@ -6,25 +6,73 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'TangerineBold';
+    src: url('fonts/Tangerine-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : 'TangerineRegular';
+    src: url('/fonts/Tangerine-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LovelyCoffee';
+    src: url('../fonts/LovelyCoffee-jEVeO.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
 h1 {
     text-align: center;
-    color: teal;
     font-family: 'Precious', cursive;
     font-size: 50px;
 }
 
 h2 {
-    padding: 1%;
+    padding-top: 2%;
+    font-family: 'TangerineRegular', cursive ;
+    font-size: 50px;
 }
 
 p{
     text-align: justify;
     font-size: 20px;
+    padding-right: 1%;
+    padding-left: 1%;
 }
-
 
 
 img {
     display: block;
     margin: 0 auto;
+}
+
+#Bhindi {
+    color: teal;
+}
+#Pasta {
+    color: maroon;
+}
+#Taro {
+    color: rgba(108, 106, 31, 0.635);
+}
+
+h3 {
+    font-family: 'TangerineRegular', cursive ;
+    font-size: 50px;
+    color: rgba(0,0,0,0,5);
+}
+
+h4 {
+    font-family: 'TangerineRegular', cursive ;
+    font-size: 40px;
+}
+
+ul, ol {
+    font-size: 20px;
 }
